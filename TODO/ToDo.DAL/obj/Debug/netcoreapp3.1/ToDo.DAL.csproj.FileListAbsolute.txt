@@ -1,0 +1,16 @@
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.DAL.deps.json
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.DAL.dll
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.DAL.pdb
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.BusinessObjects.dll
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.Contracts.dll
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.Contracts.pdb
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.BusinessObjects.pdb
+D:\Projects\TODO\ToDo.DAL\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.csprojAssemblyReference.cache
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.AssemblyInfoInputs.cache
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.AssemblyInfo.cs
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.csproj.CoreCompileInputs.cache
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.csproj.CopyComplete
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.dll
+D:\Projects\TODO\ToDo.DAL\obj\Debug\netcoreapp3.1\ToDo.DAL.pdb

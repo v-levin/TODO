@@ -1,0 +1,16 @@
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.BusinessObjects.dll
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.Contracts.dll
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.Core.dll
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.AssemblyInfoInputs.cache
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.AssemblyInfo.cs
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.csprojAssemblyReference.cache
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.csproj.CoreCompileInputs.cache
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.BLL.deps.json
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.BLL.dll
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.BLL.pdb
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.Contracts.pdb
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.BusinessObjects.pdb
+D:\Projects\TODO\ToDo.BLL\bin\Debug\netcoreapp3.1\ToDo.Core.pdb
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.csproj.CopyComplete
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.dll
+D:\Projects\TODO\ToDo.BLL\obj\Debug\netcoreapp3.1\ToDo.BLL.pdb

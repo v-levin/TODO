@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ToDo.DAL/1.0.0": {
+        "dependencies": {
+          "ToDo.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "ToDo.DAL.dll": {}
+        }
+      },
+      "ToDo.BusinessObjects/1.0.0": {
+        "dependencies": {
+          "ToDo.Core": "1.0.0"
+        },
+        "runtime": {
+          "ToDo.BusinessObjects.dll": {}
+        }
+      },
+      "ToDo.Contracts/1.0.0": {
+        "dependencies": {
+          "ToDo.BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "ToDo.Contracts.dll": {}
+        }
+      },
+      "ToDo.Core/1.0.0": {
+        "runtime": {
+          "ToDo.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToDo.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDo.BusinessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDo.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDo.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
