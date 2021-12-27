@@ -49,6 +49,7 @@ namespace TODO.Controllers
                     return View();
                 }
 
+                TempData["Success"] = Constant.SuccessfullyCreated;
                 return RedirectToAction("All");
             }
 

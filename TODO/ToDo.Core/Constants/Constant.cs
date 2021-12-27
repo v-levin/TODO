@@ -4,6 +4,7 @@
     {
         public const string Completed = "Completed";
 
+        public const string SuccessfullyCreated = "The task has been successfully created!";
         public const string SuccessfullyUpdated = "The item has been successfully updated!";
         public const string SuccessfullyDeleted = "The item has been successfully deleted!";
 

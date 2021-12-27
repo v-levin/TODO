@@ -27,14 +27,13 @@ namespace ToDo.BLL
         {
             try
             {
-                task.Id = i++;
-
-                if (CheckIfNameExists(task, tasks))
+                if (CheckIfNameExists(task.Name, tasks))
                 {
                     _response.Message = Constant.TaskAlreadyExists;
                     return _response;
                 }
 
+                task.Id = i++;
                 tasks.Add(task);
 
                 return _response;
@@ -63,7 +62,7 @@ namespace ToDo.BLL
         {
             try
             {
-                if (CheckIfNameExists(task, tasks))
+                if (CheckIfNameExists(task.Name, tasks))
                 {
                     _response.Message = Constant.TaskAlreadyExists;
                     return _response;
@@ -91,16 +90,13 @@ namespace ToDo.BLL
             try
             {
                 var taskToDelete = tasks.FirstOrDefault(x => x.Id == id);
-                if (taskToDelete is not null && taskToDelete.Status == Status.Completed)
+                if (taskToDelete is not null && taskToDelete.Status is Status.Completed)
                 {
                     tasks.Remove(taskToDelete);
-                }
-                else
-                {
-                    _response.Message = Constant.DeleteOnlyCompletedTask;
                     return _response;
                 }
 
+                _response.Message = Constant.DeleteOnlyCompletedTask;
                 return _response;
             }
             catch (Exception ex)
@@ -110,9 +106,9 @@ namespace ToDo.BLL
             }
         }
 
-        private bool CheckIfNameExists(Task task, List<Task> tasks)
+        private static bool CheckIfNameExists(string taskName, List<Task> tasks)
         {
-            return tasks.Any(x => x.Id != task.Id && x.Name == task.Name);
+            return tasks.Any(x => x.Name == taskName);
         }
     }
 }
