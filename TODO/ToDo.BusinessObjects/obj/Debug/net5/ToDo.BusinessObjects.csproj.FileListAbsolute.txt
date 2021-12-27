@@ -1,0 +1,15 @@
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\bin\Debug\net5\ToDo.BusinessObjects.deps.json
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\bin\Debug\net5\ToDo.BusinessObjects.dll
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\bin\Debug\net5\ref\ToDo.BusinessObjects.dll
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\bin\Debug\net5\ToDo.BusinessObjects.pdb
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\bin\Debug\net5\ToDo.Core.dll
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\bin\Debug\net5\ToDo.Core.pdb
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.csproj.AssemblyReference.cache
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.AssemblyInfoInputs.cache
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.AssemblyInfo.cs
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.csproj.CopyComplete
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.dll
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ref\ToDo.BusinessObjects.dll
+C:\Projects\TODO\TODO\ToDo.BusinessObjects\obj\Debug\net5\ToDo.BusinessObjects.pdb

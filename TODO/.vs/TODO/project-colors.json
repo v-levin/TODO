@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "30d37d0a-35fd-402c-8cc6-97cf3fe845c1": {
+      "ProjectGuid": "30d37d0a-35fd-402c-8cc6-97cf3fe845c1",
+      "DisplayName": "TODO",
+      "ColorIndex": 0
+    },
+    "e1874a73-cc5f-40c7-a17e-f74ffc2d2bb1": {
+      "ProjectGuid": "e1874a73-cc5f-40c7-a17e-f74ffc2d2bb1",
+      "DisplayName": "ToDo.BusinessObjects",
+      "ColorIndex": 1
+    },
+    "679f1f3f-425e-41a4-b21c-b32cd6fff7b8": {
+      "ProjectGuid": "679f1f3f-425e-41a4-b21c-b32cd6fff7b8",
+      "DisplayName": "ToDo.Contracts",
+      "ColorIndex": 2
+    },
+    "ce5a4770-0f70-46ae-bea2-34c10aff99cf": {
+      "ProjectGuid": "ce5a4770-0f70-46ae-bea2-34c10aff99cf",
+      "DisplayName": "ToDo.Core",
+      "ColorIndex": 3
+    },
+    "99ca7afd-48a0-4618-98fe-81b810c7a77d": {
+      "ProjectGuid": "99ca7afd-48a0-4618-98fe-81b810c7a77d",
+      "DisplayName": "ToDo.BLL",
+      "ColorIndex": 4
+    },
+    "97c6028d-03d2-4fed-a728-e5e91464b1cb": {
+      "ProjectGuid": "97c6028d-03d2-4fed-a728-e5e91464b1cb",
+      "DisplayName": "ToDo.BLL.Tests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

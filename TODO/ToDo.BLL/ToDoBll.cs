@@ -23,7 +23,7 @@ namespace ToDo.BLL
             _response = new Response();
         }
 
-        public Response CreateTask(Task task, ref List<Task> tasks)
+        public Response CreateTask(Task task, List<Task> tasks)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace ToDo.BLL
             }
         }
 
-        public Task GetTaskById(int id, ref List<Task> tasks)
+        public Task GetTaskById(int id, List<Task> tasks)
         {
             try
             {
@@ -59,7 +59,7 @@ namespace ToDo.BLL
             }
         }
 
-        public Response EditTask(Task task, ref List<Task> tasks)
+        public Response EditTask(Task task, List<Task> tasks)
         {
             try
             {
@@ -70,7 +70,7 @@ namespace ToDo.BLL
                 }
 
                 var item = tasks.FirstOrDefault(x => x.Id == task.Id);
-                if (item != null)
+                if (item is not null)
                 {
                     item.Name = task.Name;
                     item.Priority = task.Priority;
@@ -86,12 +86,12 @@ namespace ToDo.BLL
             }
         }
 
-        public Response DeleteTask(int id, ref List<Task> tasks)
+        public Response DeleteTask(int id, List<Task> tasks)
         {
             try
             {
                 var taskToDelete = tasks.FirstOrDefault(x => x.Id == id);
-                if (taskToDelete != null && taskToDelete.Status == Status.Completed)
+                if (taskToDelete is not null && taskToDelete.Status == Status.Completed)
                 {
                     tasks.Remove(taskToDelete);
                 }

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ToDo.Contracts/1.0.0": {
+        "dependencies": {
+          "ToDo.BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "ToDo.Contracts.dll": {}
+        }
+      },
+      "ToDo.BusinessObjects/1.0.0": {
+        "dependencies": {
+          "ToDo.Core": "1.0.0"
+        },
+        "runtime": {
+          "ToDo.BusinessObjects.dll": {}
+        }
+      },
+      "ToDo.Core/1.0.0": {
+        "runtime": {
+          "ToDo.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToDo.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDo.BusinessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ToDo.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

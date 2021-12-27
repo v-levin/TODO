@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kE5qZMvIVt4neGC+LvrHpEbMrEGCKXWkpQHtAkK06dYEweIPNYTqnh9+oe37Z9gyP4bq1oCtqeNE+AKA7qvpHw==",
+  "dgSpecHash": "Ud+h+vSmiFzZXdwuPyH65BxCxlO9m6q8AfB0ZtLmOqkTb4uqeuThRX+kM7RbxKgeIPg1XouWU5JwHM5TS4TLNw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\TODO\\ToDo.BLL\\ToDo.BLL.csproj",
+  "projectFilePath": "C:\\Projects\\TODO\\TODO\\ToDo.BLL\\ToDo.BLL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vle.VOXTENEO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    "C:\\Users\\levin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

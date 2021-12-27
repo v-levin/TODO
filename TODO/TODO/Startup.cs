@@ -6,7 +6,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ToDo.BLL;
 using ToDo.Contracts.Interfaces;
-using ToDo.Contracts.Responses;
 using TODO.Mappers;
 
 namespace TODO

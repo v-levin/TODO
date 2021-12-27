@@ -1,0 +1,12 @@
+C:\Projects\TODO\TODO\ToDo.Core\bin\Debug\net5\ToDo.Core.deps.json
+C:\Projects\TODO\TODO\ToDo.Core\bin\Debug\net5\ToDo.Core.dll
+C:\Projects\TODO\TODO\ToDo.Core\bin\Debug\net5\ref\ToDo.Core.dll
+C:\Projects\TODO\TODO\ToDo.Core\bin\Debug\net5\ToDo.Core.pdb
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.csproj.AssemblyReference.cache
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.AssemblyInfoInputs.cache
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.AssemblyInfo.cs
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.csproj.CoreCompileInputs.cache
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.dll
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ref\ToDo.Core.dll
+C:\Projects\TODO\TODO\ToDo.Core\obj\Debug\net5\ToDo.Core.pdb

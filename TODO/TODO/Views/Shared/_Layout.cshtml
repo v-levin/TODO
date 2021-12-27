@@ -21,9 +21,10 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @if (TempData["TaskNameAlreadyExists"] != null)
+
+            @if (TempData["ValidationMessage"] != null)
             {
-                <div class="alert alert-danger alert-dismissible fade show">@TempData["TaskNameAlreadyExists"]
+                <div class="alert alert-danger alert-dismissible fade show">@TempData["ValidationMessage"]
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -33,15 +34,6 @@
             @if (TempData["Success"] != null)
             {
                 <div class="alert alert-success alert-dismissible fade show">@TempData["Success"]
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            }
-
-            @if (TempData["YouCanOnlyDeleteCompletedTasks"] != null)
-            {
-                <div class="alert alert-danger alert-dismissible fade show">@TempData["YouCanOnlyDeleteCompletedTasks"]
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

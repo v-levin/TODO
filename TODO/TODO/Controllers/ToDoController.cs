@@ -11,7 +11,7 @@ namespace TODO.Controllers
 {
     public class ToDoController : Controller
     {
-        private static List<Task> _tasks = new List<Task>();
+        private static readonly List<Task> _tasks = new();
 
         private readonly IToDoBll _toDoBll;
         private readonly IMapper _mapper;
@@ -42,10 +42,10 @@ namespace TODO.Controllers
             if (ModelState.IsValid)
             {
                 var task = _mapper.Map<Task>(model);
-                var response = _toDoBll.CreateTask(task, ref _tasks);
+                var response = _toDoBll.CreateTask(task, _tasks);
                 if (!string.IsNullOrEmpty(response.Message))
                 {
-                    TempData["TaskNameAlreadyExists"] = response.Message;
+                    TempData["ValidationMessage"] = response.Message;
                     return View();
                 }
 
@@ -58,8 +58,8 @@ namespace TODO.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var task = _toDoBll.GetTaskById(id, ref _tasks);
-            if (task == null)
+            var task = _toDoBll.GetTaskById(id, _tasks);
+            if (task is null)
             {
                 return RedirectToAction("All");
             }
@@ -74,10 +74,10 @@ namespace TODO.Controllers
             if (ModelState.IsValid)
             {
                 var task = _mapper.Map<Task>(model);
-                var response = _toDoBll.EditTask(task, ref _tasks);
+                var response = _toDoBll.EditTask(task, _tasks);
                 if (!string.IsNullOrEmpty(response.Message))
                 {
-                    TempData["TaskNameAlreadyExists"] = response.Message;
+                    TempData["ValidationMessage"] = response.Message;
                     return View();
                 }
 
@@ -91,8 +91,8 @@ namespace TODO.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var task = _toDoBll.GetTaskById(id, ref _tasks);
-            if (task == null)
+            var task = _toDoBll.GetTaskById(id, _tasks);
+            if (task is null)
             {
                 return RedirectToAction("All");
             }
@@ -104,10 +104,10 @@ namespace TODO.Controllers
         [HttpPost]
         public IActionResult Delete(TaskViewModel model)
         {
-            var response = _toDoBll.DeleteTask(model.Id, ref _tasks);
+            var response = _toDoBll.DeleteTask(model.Id, _tasks);
             if (!string.IsNullOrEmpty(response.Message))
             {
-                TempData["YouCanOnlyDeleteCompletedTasks"] = response.Message;
+                TempData["ValidationMessage"] = response.Message;
                 return View();
             }
 

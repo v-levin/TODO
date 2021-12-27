@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\vle.VOXTENEO\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\vle.VOXTENEO\\.nuget\\packages"
+      "C:\\Users\\levin\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\levin\\.nuget\\packages"
     ]
   }
 }
