@@ -25,7 +25,9 @@ namespace TODO.Controllers
         public IActionResult All()
         {
             var model = _mapper.Map<List<TaskViewModel>>(_tasks);
-            model = model.OrderByDescending(x => x.Priority).ToList();
+            model = model.OrderByDescending(x => x.Priority)
+                         .ThenBy(x => x.Name)
+                         .ToList();
 
             return View(model);
         }

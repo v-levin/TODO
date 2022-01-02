@@ -27,13 +27,13 @@ namespace ToDo.BLL
         {
             try
             {
-                if (CheckIfNameExists(task.Name, tasks))
+                task.Id = i++;
+                if (CheckIfNameExists(task, tasks))
                 {
                     _response.Message = Constant.TaskAlreadyExists;
                     return _response;
                 }
 
-                task.Id = i++;
                 tasks.Add(task);
 
                 return _response;
@@ -62,7 +62,7 @@ namespace ToDo.BLL
         {
             try
             {
-                if (CheckIfNameExists(task.Name, tasks))
+                if (CheckIfNameExists(task, tasks))
                 {
                     _response.Message = Constant.TaskAlreadyExists;
                     return _response;
@@ -106,9 +106,9 @@ namespace ToDo.BLL
             }
         }
 
-        private static bool CheckIfNameExists(string taskName, List<Task> tasks)
+        private static bool CheckIfNameExists(Task task, List<Task> tasks)
         {
-            return tasks.Any(x => x.Name == taskName);
+            return tasks.Any(x => x.Name == task.Name && x.Id != task.Id);
         }
     }
 }

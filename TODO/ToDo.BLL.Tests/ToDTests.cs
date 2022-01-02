@@ -21,12 +21,12 @@ namespace ToDo.BLL.Tests
         }
 
         [Fact]
-        public void CreateTask_Successful_WhenTaskWithUniqeName()
+        public void CreateTask_NotSuccessful_WhenTaskWithSameName()
         {
             // Arrange
-            var response = new Response();
+            var response = new Response { Message = Constant.TaskAlreadyExists };
             var task = new Task { Id = 0, Name = "Test" };
-            var tasks = new List<Task> { new Task { Id = 1, Name = "Test 1" } };
+            var tasks = new List<Task> { new Task { Id = 1, Name = "Test" } };
 
             // Act
             var result = _toDoBll.CreateTask(task, tasks);
@@ -36,12 +36,12 @@ namespace ToDo.BLL.Tests
         }
 
         [Fact]
-        public void CreateTask_NotSuccessful_WhenTaskWithSameName()
+        public void CreateTask_Successful_WhenTaskWithUniqeName()
         {
             // Arrange
-            var response = new Response { Message = Constant.TaskAlreadyExists };
+            var response = new Response();
             var task = new Task { Id = 0, Name = "Test" };
-            var tasks = new List<Task> { new Task { Id = 1, Name = "Test" } };
+            var tasks = new List<Task> { new Task { Id = 1, Name = "Test 1" } };
 
             // Act
             var result = _toDoBll.CreateTask(task, tasks);

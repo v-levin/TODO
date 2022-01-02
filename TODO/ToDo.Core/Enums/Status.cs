@@ -1,16 +1,16 @@
-﻿using System.ComponentModel;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ToDo.Core.Enums
 {
     public enum Status
     {
-        [Description("Not Started")]
+        [Display(Name = "Not Started")]
         NotStarted,
 
-        [Description("In Progress")]
+        [Display(Name = "In Progress")]
         InProgress,
 
-        [Description("Completed")]
+        [Display(Name = "Completed")]
         Completed
     }
 }

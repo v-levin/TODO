@@ -1,4 +1,5 @@
-﻿@model IEnumerable<TODO.Models.TaskViewModel>
+﻿@using ToDo.BLL.Extensions
+@model IEnumerable<TODO.Models.TaskViewModel>
 
 @{
     ViewData["Title"] = "All Tasks";
@@ -35,7 +36,7 @@
                         @item.Priority
                     </td>
                     <td>
-                        @item.Status.ToString()
+                        @item.Status
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
